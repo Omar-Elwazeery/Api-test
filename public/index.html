@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Sentence API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .endpoint {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Sentence API</h1>
+    <p>A simple API that returns random sentences for Nightbot commands.</p>
+    
+    <div class="endpoint">
+        <h2>Endpoint:</h2>
+        <p><code>/api/random</code> - Returns a random sentence as plain text</p>
+        
+        <h3>Nightbot Usage:</h3>
+        <p>Add this command to Nightbot:</p>
+        <code>!addcom !random $(urlfetch YOUR_NETLIFY_URL/api/random)</code>
+        <p>(Replace YOUR_NETLIFY_URL with your actual Netlify URL after deployment)</p>
+    </div>
+</body>
+</html> 
